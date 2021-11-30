@@ -2,9 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    margin-bottom: 25px !important;
 }
 
 ul > li,
 ol > li {
-    margin-bottom: 15px;
+    margin-bottom: 15px !important;
+}
+
+nav {
+    height: 50px !important;
+    margin-top: 25px;
+    border-bottom: 1px solid grey;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    text-decoration: none;
+    color: grey;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+nav li:last-child a {
+    color: #0d6efd;
+    border-bottom: 3px solid #0d6efd;
+}
+
+h2, h3 {
+    color: rgb(77, 77, 77);
+    margin-top: 30px !important;
 }
